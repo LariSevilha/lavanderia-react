@@ -1,0 +1,126 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #eef1f6;
+  color: #2b2d42;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #2b2d42;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+input, select {
+  margin: 15px 0;
+  padding: 15px;
+  width: calc(100% - 30px);
+  border: 1px solid #dde3ec;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #2b2d42;
+  font-size: 18px;
+  transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #8d99ae;
+  outline: none;
+}
+
+button {
+  margin: 20px 0;
+  padding: 15px 20px;
+  background-color: #ef233c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #d90429;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  background-color: #fff;
+  margin: 15px 0;
+  padding: 20px;
+  border: 1px solid #dde3ec;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  flex-wrap: wrap;
+}
+
+li strong {
+  font-size: 16px;
+  color: #2b2d42;
+  margin-bottom: 10px;
+}
+
+li div {
+  flex-grow: 1;
+}
+
+li button {
+  margin: 5px 0 5px 10px;
+  padding: 10px 15px;
+  background-color: #8d99ae;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  flex-grow: 0;
+}
+
+li button:hover {
+  background-color: #2b2d42;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+li button:first-of-type {
+  background-color: #00a8e8;
+}
+
+li button:first-of-type:hover {
+  background-color: #0077b6;
+}
+
+li button:last-of-type {
+  background-color: #ef233c;
+}
+
+li button:last-of-type:hover {
+  background-color: #d90429;
+}
